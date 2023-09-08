@@ -1,0 +1,14 @@
+:root{
+    /* ------------------- Primary ---------- */
+    --cyan : hsl(179, 62%, 43%);
+    --Bright__Yellow: hsl(71, 73%, 54%);
+
+    /* ------------------- Neutral ------------ */
+    --Light__Gray: hsl(204, 43%, 93%);
+    --Grayish__Blue : hsl(218, 22%, 67%);
+
+    /* ------------- Typography ---------------- */
+    --fSize : 1.6rem;
+    --fFamily: 'Karla', sans-serif;
+
+}
