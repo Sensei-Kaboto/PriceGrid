@@ -12,3 +12,35 @@
     --fFamily: 'Karla', sans-serif;
 
 }
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+p{
+    margin-top: 0;
+}
+
+h1,
+h2,
+p{
+    line-height:1;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.product__content{
+    display: grid;
+}
