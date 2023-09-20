@@ -39,8 +39,65 @@ p{
 body{
     margin: 0;
     padding: 0;
+    font-family: var(--fFamily);
 }
 
 .product__content{
     display: grid;
+    place-items: center;
+    margin: 72px auto;
+    border: solid;
+    width: 310px;
 }
+
+.product__heading{
+    margin: 24px;
+}
+
+.product__heading h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--cyan);
+    margin-top: 4px;
+}
+
+.product__heading h2{
+    margin-top: 24px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--Bright__Yellow);
+}
+
+.product__heading p{
+    color: var(--Grayish__Blue);
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-top: 16px;
+    
+}
+
+.Monthly__subscription{
+    border: solid;
+}
+
+.background{
+    background-color: rgba(42, 179, 177, 1) ;
+}
+
+.why__us{
+    margin: 24px;
+}
+
+.why__us h1{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.why__us p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: 20px;
+}
+   
