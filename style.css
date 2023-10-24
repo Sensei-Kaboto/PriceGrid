@@ -16,13 +16,14 @@
 html{
     box-sizing: border-box;
     font-size: 62.5%;
+    background-color: var(--Light__Gray);
 }
 
-*,
+/* *,
 *::before,
 *::after{
     box-sizing: inherit;
-}
+} */
 
 h1,
 h2,
@@ -40,25 +41,30 @@ body{
     margin: 0;
     padding: 0;
     font-family: var(--fFamily);
+    display: grid;
+    place-items: center;
+    
 }
 
 .product__content{
-    display: grid;
-    place-items: center;
+    
     margin: 72px auto;
-    border: solid;
     width: 310px;
+    border-radius:8px;
+    overflow: hidden;
 }
 
 .product__heading{
-    margin: 24px;
+    padding: 24px;
+    margin-bottom: 0;
+    background-color: #fff;
 }
 
 .product__heading h1{
     font-size: 2rem;
     font-weight: 700;
     color: var(--cyan);
-    margin-top: 4px;
+
 }
 
 .product__heading h2{
@@ -73,20 +79,62 @@ body{
     font-weight: 400;
     font-size: 1.4rem;
     margin-top: 16px;
+   margin-bottom: 0;
     
 }
 
 .Monthly__subscription{
-    border: solid;
-}
+    padding: 24px;
 
-.background{
     background-color: rgba(42, 179, 177, 1) ;
 }
 
-.why__us{
-    margin: 24px;
+
+.Monthly h1{
+    font-size: 1.6rem;
+    color : #fff;
+    font-weight: 700;
+    /* margin-top: 24px; */
 }
+
+.Monthly p{
+
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.Monthly p span{
+   
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.Monthly p:nth-last-of-type(1) {
+  
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 26px;
+}
+
+button{
+   background-color: var(--Bright__Yellow);
+   height: 48px;
+   color: #fff;
+   font-weight: 700;
+   width: 265px;
+   border: 0;
+   border-radius: 2px; 
+}
+
+.background{
+    background-color: rgb(74, 190, 188) ;
+    padding: 24px;
+}
+
+
 
 .why__us h1{
     font-size: 1.8rem;
@@ -99,5 +147,6 @@ body{
     font-weight: 400;
     color: #fff;
     line-height: 20px;
+    margin-bottom: 0;
 }
    
