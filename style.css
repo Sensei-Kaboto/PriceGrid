@@ -149,4 +149,32 @@ button{
     line-height: 20px;
     margin-bottom: 0;
 }
-   
+
+@media(min-width:40.7em) and (max-width:90em){
+    .product__content{
+        display: grid;
+        grid-template-rows: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
+        width: 635px;
+       
+    }
+
+    .product__heading{
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-column-end: -1;
+     
+
+    }
+    .background{
+        grid-row-start:2 ;
+    }
+
+    .Monthly__subscription{
+        grid-row-start: 2;
+
+    }
+
+    
+
+}
