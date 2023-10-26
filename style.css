@@ -151,13 +151,14 @@ button{
     margin-bottom: 0;
 }
 
-@media(min-width:40.7em) and (max-width:90em){
+@media(min-width:40.7em) {
     .product__content{
         display: grid;
         grid-template-rows: 1fr 1fr ;
         grid-template-columns: 1fr 1fr;
         width: 635px;
         margin:163px auto ;
+        height: 475px;
        
     }
 
@@ -194,7 +195,6 @@ button{
     .Monthly h1{
         font-size: 1.8rem;
     }
-
 
 
 
